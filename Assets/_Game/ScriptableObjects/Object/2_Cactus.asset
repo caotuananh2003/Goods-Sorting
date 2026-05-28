@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191cca4af040ebe45b439c73e3eeb061, type: 3}
+  m_Name: 2_Cactus
+  m_EditorClassIdentifier: GameTemplate::GameTemplate._Game.Scripts.ItemType
+  itemId: 2
+  prefab: {fileID: 671137700133468482, guid: 7bd54d050d8ff1e4b87407bcea9b0b92, type: 3}

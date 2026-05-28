@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 191cca4af040ebe45b439c73e3eeb061, type: 3}
+  m_Name: 3_Chocolate
+  m_EditorClassIdentifier: GameTemplate::GameTemplate._Game.Scripts.ItemType
+  itemId: 3
+  prefab: {fileID: 826792926685017033, guid: e3921738d9dc0684aace5af5850e8adb, type: 3}
