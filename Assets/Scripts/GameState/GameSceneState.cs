@@ -225,21 +225,21 @@ namespace GameTemplate.Gameplay.GameState
             //    m_SoundPlayer.ResumeMusic();
             //}
         }
-#if UNITY_EDITOR
-        private void Update() // Debug shortcut chỉ dùng trong Editor
-        {
-            if (Input.GetKeyDown(KeyCode.N)) // N = next level
-            {
-                _levelManager.SetNextLevel();
-                ReloadScene();
-            }
+//#if UNITY_EDITOR
+//        private void Update() // Debug shortcut chỉ dùng trong Editor
+//        {
+//            if (Input.GetKeyDown(KeyCode.N)) // N = next level
+//            {
+//                _levelManager.SetNextLevel();
+//                ReloadScene();
+//            }
 
-            if (Input.GetKeyDown(KeyCode.P)) // P = previous level
-            {
-                _levelManager.SetPreviousLevel();
-                ReloadScene();
-            }
-        }
-#endif
+//            if (Input.GetKeyDown(KeyCode.P)) // P = previous level
+//            {
+//                _levelManager.SetPreviousLevel();
+//                ReloadScene();
+//            }
+//        }
+//#endif
     }
 }

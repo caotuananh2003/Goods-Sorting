@@ -10,9 +10,9 @@ using GameTemplate.ScriptableObjects;
 using GameTemplate.UI.Currency;
 using ScriptableObjects;
 using System;
-using TextMateSharp.Grammars;
+//using TextMateSharp.Grammars;
 using UnityEngine;
-using UnityEngine.SceneManagement;
+//using UnityEngine.SceneManagement;
 using VContainer;
 using VContainer.Unity;
 

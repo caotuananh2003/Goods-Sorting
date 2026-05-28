@@ -99,7 +99,7 @@ namespace GameTemplate._Game.Scripts.Match
         {
             Debug.Log("QueueObject.TryToDropNewPlace");
             RaycastHit hit;
-            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+            Ray ray = Camera.main.ScreenPointToRay(MobileInput.PointerPosition());
             //Debug.DrawRay(ray.origin, ray.direction * 50, Color.red, 60);
 
             if (Physics.Raycast(ray, out hit, 50, _layerMask)) // raycast tìm drop target
